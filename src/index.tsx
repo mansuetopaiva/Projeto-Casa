@@ -1,13 +1,10 @@
 import React from 'react'
 import { Porta } from './components/Porta'
 import { Mesa } from './components/Mesa'
-import { Sofa } from './components/Sofa'
 import { Cadeira } from './components/Cadeira'
-import { TV } from './components/TV'
 import { ArCondicionado } from './components/ArCondicionado'
 import { Tomada } from './components/Tomada'
 import { Interruptor } from './components/Interruptor'
-import { Rack } from './components/Rack'
 import { Ventilador } from './components/Ventilador'
 import { Camera } from './components/Camera'
 import { Geladeira } from './components/Geladeira'
@@ -42,96 +39,27 @@ import { ChuveiroEletrico } from './components/ChuveiroEletrico'
 import { Privada } from './components/Privada'
 import { PortaVidroCorredica } from './components/PortaVidroCorredica'
 
+import { LivingRoom } from './pages/LivingRoom'
+import { Kitchen } from './pages/Kitchen'
+import { Bathroom } from './pages/Bathroom'
+
 const Router = ({ pathname }): JSX.Element => {
     switch(pathname) { 
         case '/living-room':
-            return (<>
-                <Porta />
-                <Mesa />
-                <Cadeira />
-                <Sofa />
-                <TV />
-                <ArCondicionado />
-                <Tomada />
-                <Interruptor />
-                <Rack />
-                <Ventilador />
-                <Camera />
-            </>);
+            return (<LivingRoom />);
             break;
         case '/kitchen':
-            return (<>
-                <Geladeira />
-                <Bebedouro />
-                <Garrafao20L />
-                <Pia />
-                <Torneira />
-                <Movel />
-                <AirFryer />
-                <Sanduicheira />
-                <Despensa />
-                <MaquinaDeLavar />
-                <Liquidificador />
-                <Fogao />
-                <Microondas />
-                <Porta />
-                <Tomada />
-                <Interruptor />
-                <Camera />
-            </>);
+            return (<Kitchen />);
             break;
         case '/office':
-            return (<>
-                <MesaAutomatica />
-                <Mesa />
-                <Janela />
-                <Cadeira />
-                <Espelho />
-                <Movel />
-                <Notebook />
-                <Monitor />
-                <IPad />
-                <Carregador />
-                <Celular />
-                <VideoGame />
-                <CaixaDeposito />
-                <ArCondicionado />
-                <CortinaAutomatica />
-                <Camera />
-                <Porta />
-                <Tomada />
-                <Interruptor />
-                <HomePod />
-            </>);
+            return (<Office />);
             break;
         case '/babyroom':
-            return (<>
-                <Cama />
-                <Rede />
-                <Comoda />
-                <Ventilador />
-                <Camera />
-                <Janela />
-                <CortinaAutomatica />
-                <ArCondicionado />
-                <Tomada />
-                <Interruptor />
-                <Porta />
-                <HomePod />
-            </>);
+            return (<Babyroom />);
             break;
-        case '/bedroom':
-            return (<>
-                <ChuveiroEletrico />
-                <Pia />
-                <Torneira />
-                <Privada />
-                <Movel />
-                <Porta />
-                <PortaVidroCorredica />
-                <Tomada />
-                <Interruptor />
-                <Espelho />
+        case '/bathroom':
+            return (<Bathroom>
+
             </>);
             break;
         default:
