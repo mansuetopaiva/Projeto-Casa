@@ -1,6 +1,10 @@
 import React from 'react';
 
-export function TV(): JSX.Element {
+function turnOnOff(){
+
+}
+
+export function TV() {
   return <div>TV</div>;
 }
 

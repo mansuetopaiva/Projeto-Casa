@@ -1,6 +1,10 @@
 import React from 'react';
 
-export function Monitor(): JSX.Element {
+function turnOnOff(){
+
+}
+
+export function Monitor() {
   return <div>Monitor</div>;
 }
 

@@ -1,6 +1,6 @@
 import React from 'react';
 
-export function Sofa(): JSX.Element {
+export function Sofa() {
   return <div>Sofa</div>;
 }
 

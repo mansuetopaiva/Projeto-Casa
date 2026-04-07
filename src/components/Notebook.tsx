@@ -1,6 +1,14 @@
 import React from 'react';
 
-export function Notebook(): JSX.Element {
+function openClose(){
+
+}
+
+function turnOnOff(){
+
+}
+
+export function Notebook() {
   return <div>Notebook</div>;
 }
 

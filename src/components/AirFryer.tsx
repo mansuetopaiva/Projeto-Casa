@@ -1,6 +1,14 @@
 import React from 'react';
 
-export function AirFryer(): JSX.Element {
+function openClose(){
+
+}
+
+function turnOnOff(){
+
+}
+
+export function AirFryer() {
   return <div>AirFryer</div>;
 }
 

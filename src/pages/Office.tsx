@@ -1,22 +1,22 @@
-import { MesaAutomatica } from "../components/MesaAutomatica";
-import { Mesa } from "../components/Mesa";
-import { Janela } from "../components/Janela";
-import { Cadeira } from "../components/Cadeira";
-import { Espelho } from "../components/Espelho";
-import { Movel } from "../components/Movel";
+import { AutomaticTable } from "../components/AutomaticTable";
+import { Table } from "../components/Table";
+import { Window } from "../components/Window";
+import { Chair } from "../components/Chair";
+import { Mirror } from "../components/Mirror";
+import { Furniture } from "../components/Furniture";
 import { Notebook } from "../components/Notebook";
 import { Monitor } from "../components/Monitor";
 import { IPad } from "../components/IPad";
-import { Carregador } from "../components/Carregador";
-import { Celular } from "../components/Celular";
+import { Charger } from "../components/Charger";
+import { Cellphone } from "../components/Cellphone";
 import { VideoGame } from "../components/VideoGame";
-import { CaixaDeposito } from "../components/CaixaDeposito";
-import { ArCondicionado } from "../components/ArCondicionado";
-import { CortinaAutomatica } from "../components/CortinaAutomatica";
+import { DepositBox } from "../components/DepositBox";
+import { AirConditioner } from "../components/AirConditioner";
+import { AutomaticCurtain } from "../components/AutomaticCurtain";
 import { Camera } from "../components/Camera";
-import { Porta } from "../components/Porta";
-import { Tomada } from "../components/Tomada";
-import { Interruptor } from "../components/Interruptor";
+import { Door } from "../components/Door";
+import { Outlet } from "../components/Outlet";
+import { Switch } from "../components/Switch";
 import { HomePod } from "../components/HomePod";
 
 
@@ -25,25 +25,25 @@ import { HomePod } from "../components/HomePod";
 export function Office() { 
      return (
           <>
-           <MesaAutomatica />
-           <Mesa />
-           <Janela />
-           <Cadeira />
-           <Espelho />
-           <Movel />
+           <AutomaticTable />
+           <Table />
+           <Window />
+           <Chair />
+           <Mirror />
+           <Furniture />
            <Notebook />
            <Monitor />
            <IPad />
-           <Carregador />
-           <Celular />
+           <Charger />
+           <Cellphone />
            <VideoGame />
-           <CaixaDeposito />
-           <ArCondicionado />
-           <CortinaAutomatica />
+           <DepositBox />
+           <AirConditioner />
+           <AutomaticCurtain />
            <Camera />
-           <Porta />
-           <Tomada />
-           <Interruptor />
+           <Door />
+           <Outlet />
+           <Switch />
            <HomePod />
           </>
              )

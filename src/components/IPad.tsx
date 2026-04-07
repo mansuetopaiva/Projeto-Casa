@@ -1,6 +1,10 @@
 import React from 'react';
 
-export function IPad(): JSX.Element {
+function openClose(){
+
+}
+
+export function IPad() {
   return <div>IPad</div>;
 }
 

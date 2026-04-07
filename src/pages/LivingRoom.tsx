@@ -1,13 +1,13 @@
-import { Porta } from "../components/Porta";
-import { Mesa } from "../components/Mesa";
-import { Cadeira } from "../components/Cadeira";
+import { Door } from "../components/Door";
+import { Table } from "../components/Table";
+import { Chair } from "../components/Chair";
 import { Sofa } from "../components/Sofa";
 import { TV } from "../components/TV";
-import { ArCondicionado } from "../components/ArCondicionado";
-import { Tomada } from "../components/Tomada";
-import { Interruptor } from "../components/Interruptor";
+import { AirConditioner } from "../components/AirConditioner";
+import { Outlet } from "../components/Outlet";
+import { Switch } from "../components/Switch";
 import { Rack } from "../components/Rack";
-import { Ventilador } from "../components/Ventilador";
+import { Fan } from "../components/Fan";
 import { Camera } from "../components/Camera";
 
 
@@ -15,16 +15,16 @@ import { Camera } from "../components/Camera";
 export function LivingRoom() {
       return (
           <>
-            <Porta />
-            <Mesa />
-            <Cadeira />
+            <Door />
+            <Table />
+            <Chair />
             <Sofa />
             <TV />
-            <ArCondicionado />
-            <Tomada />
-            <Interruptor />
+            <AirConditioner />
+            <Outlet />
+            <Switch />
             <Rack />
-            <Ventilador />
+            <Fan />
             <Camera />
           </>
        )

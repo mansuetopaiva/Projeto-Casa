@@ -1,6 +1,13 @@
 import React from 'react';
 
-export function Rack(): JSX.Element {
+function openClose(){
+
+}
+
+function storeRemove(){
+}
+
+export function Rack() {
   return <div>Rack</div>;
 }
 

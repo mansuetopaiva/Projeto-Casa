@@ -1,6 +1,10 @@
 import React from 'react';
 
-export function Camera(): JSX.Element {
+function turnOnOff(){
+
+}
+
+export function Camera() {
   return <div>Camera</div>;
 }
 
