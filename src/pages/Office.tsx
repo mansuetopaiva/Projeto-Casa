@@ -20,8 +20,6 @@ import { Switch } from "../components/Switch";
 import { HomePod } from "../components/HomePod";
 
 
-
-
 export function Office() { 
      return (
           <>

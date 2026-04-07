@@ -12,8 +12,6 @@ import { Door } from "../components/Door";
 import { HomePod } from "../components/HomePod";
 
 
-
-
 export function Nursery() { 
      return (
             <>

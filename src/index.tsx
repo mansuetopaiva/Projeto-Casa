@@ -1,5 +1,3 @@
-import React from 'react'
-
 import { LivingRoom } from './pages/LivingRoom'
 import { Kitchen } from './pages/Kitchen'
 import { Bathroom } from './pages/Bathroom'

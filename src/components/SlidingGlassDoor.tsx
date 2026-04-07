@@ -1,14 +1,8 @@
-import React from 'react';
-
-function openClose(){
-
-}
-function lockUnlock(){
-
-}
+import { open } from '../utils/turnOpenClose';
+import { close } from '../utils/turnOpenClose';
 
 export function SlidingGlassDoor() {
+  open();
+  close();
   return <div>SlidingGlassDoor</div>;
 }
-
-export default SlidingGlassDoor;

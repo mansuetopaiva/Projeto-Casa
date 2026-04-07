@@ -1,13 +1,12 @@
-import React from 'react';
+import { open } from '../utils/turnOpenClose';
+import { close } from '../utils/turnOpenClose';
 
-function openClose(){
-
-}
 function storeRemove(){
 }
 
 export function Refrigerator() {
+  open();
+  close();
+
   return <div>Refrigerator</div>;
 }
-
-export default Refrigerator;

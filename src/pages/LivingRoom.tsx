@@ -11,7 +11,6 @@ import { Fan } from "../components/Fan";
 import { Camera } from "../components/Camera";
 
 
-
 export function LivingRoom() {
       return (
           <>

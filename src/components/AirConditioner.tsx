@@ -1,11 +1,9 @@
-import React from 'react';
+import { on } from '../utils/turnOnOff';
+import { off } from '../utils/turnOnOff';
 
-function turnOnOff(){
-
-}
 
 export function AirConditioner() {
+  on();
+  off();
   return <div>AirConditioner</div>;
 }
-
-export default AirConditioner;

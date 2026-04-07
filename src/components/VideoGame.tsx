@@ -1,11 +1,8 @@
-import React from 'react';
-
-function turnOnOff(){
-
-}
+import { on } from '../utils/turnOnOff';
+import { off } from '../utils/turnOnOff';
 
 export function VideoGame() {
+  on();
+  off();
   return <div>VideoGame</div>;
 }
-
-export default VideoGame;

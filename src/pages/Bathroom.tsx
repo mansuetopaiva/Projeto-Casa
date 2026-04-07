@@ -10,7 +10,6 @@ import { Switch } from "../components/Switch";
 import { Mirror } from "../components/Mirror";
 
 
-
 export function Bathroom() { 
      return (
           <>

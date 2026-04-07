@@ -1,11 +1,8 @@
-import React from 'react';
-
-function openClose(){
-
-}
+import { open } from '../utils/turnOpenClose';
+import { close } from '../utils/turnOpenClose';
 
 export function Furniture() {
+  open();
+  close();
   return <div>Furniture</div>;
 }
-
-export default Furniture;
